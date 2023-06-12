@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Olivia PLAYLIST</title>
+	<link rel="stylesheet" href="moiraplay.css">
+    <meta name="theme-color" content="#000000">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="images/bgg.jpg" alt="" id="bg">
+
+		<!-- navbar part -->
+		<div class="navbar">
+			<a href="olivia info.html" id="logo"><i class="bi bi-back"></i>&nbsp;Back</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content">
+				<li><a href="index.html">Home</a></li>
+				
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="#"><i class='bx bx-category'></i></a></li>
+				<li><a href="#"><i class='bx bx-tv'></i></a></li>
+				<li><a href="#"><i class='bx bxs-movie-play'></i></a></li>
+				<li><a href="#"><i class='bx bxs-message-square-detail'></i></a></li>
+				<li><a href="#"><i class='bx bx-merge'></i></a></li>
+				<li><a href="#"><i class='bx bxs-cart-add'></i></a></li>
+			</div>
+		</div>
+        
+       <!--  mid part -->
+		<div class="mid_part">
+            <img src="images/olivia.jpg" alt="">
+
+			<div class="description">
+				<p id="A_name">Olivia Rodrigo</p>
+				<br>
+
+
+                 <div class="buttons">
+                   <button><i class='bx bx-play'></i></button>
+				   <button><i class='bx bxs-like' ></i></button>
+				   <button><i class='bx bx-share-alt'></i></button>
+				   <button><i class='bx bx-bookmark-alt'></i></button>
+                 </div>
+
+			</div>
+		</div>
+
+        <!-- tracks part -->
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Top Tracks</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<img src="song_img/western/oliv1(deja).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="songs/western/oliv1.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Deja Vu</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bx-share' ></i></a></p>
+				  <p><a href="oliv1.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!----- 2nd song--------->
+			<div id="track">
+				<img src="song_img/western/oliv2(favo).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/western/oliv2.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p>Favorite Crime </p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="oliv2.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!-------3rd song-->
+			<div id="track">
+				<img src="song_img/western/oliv3(good).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/western/oliv3.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Good 4 U</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				     <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="oliv3.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!----------4th song-->
+			<div id="track">
+				<img src="song_img/western/oliv4(driver).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/western/oliv4.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Driver License</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="oliv4.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+		  <!----------5th song-->
+			<div id="track">
+				<img src="song_img/western/oliv5(traitor).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/western/oliv5.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Traitor</p>
+				     
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="oliv5.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+		</div>
+
+      
+
+		<!-- popular creator part -->
+		<div class="popular_creator">
+			<p id="heading"><i class='bx bx-trophy' ></i>&nbsp;&nbsp;Popular Creator</p>
+			 <div class="artists_list">
+ 
+				 <div class="artist">
+					 <a href="ariplay.html"><img src="images/Ariana.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Ariana Grande</p>
+						 
+					 </div>
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="sabrinaplay.html"><img src="images/sab.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Sabrina Carpenter</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="taylorplay.html"><img src="images/taylor.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Taylor Swift</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="charlieplay.html"><img src="images/charlie.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Charlie Puth</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="shawnplay.html"><img src="images/shawn.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Shawn Mendes</p>
+						 
+					 </div>
+				 </div>
+ 
+			 </div>
+		 </div>
+		
+	 </div>
+       
+
+  <!-- javascript file -->
+  <script src="moiraplay.js"></script>
+</body>
+</html>

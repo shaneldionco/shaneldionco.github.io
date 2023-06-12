@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Music Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""> </a>
+
+        <div class="nav-links"id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+         <ul>
+            <li> <a href="index.html">HOME </a></li>
+            <li> <a href="about.html">ABOUT </a></li>
+            <li> <a href="singeropm.html">OPM </a></li>
+            <li> <a href="singerwestern.html">WESTERN</a></li>
+            <li><a href="singerkpop.html">KPOP</a></li>
+            </ul>
+            
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+
+     </nav>  
+     
+     <h1> WESTERN ARTIST </h1>
+    </section>
+    <section class="Singers">
+       
+        <div class="row">
+            <div class="singer-col">
+            <a href="ari info.html"><IMG SRC="images/Ariana.jpg"></a>
+            <div class="layer">
+                <h3> Ariana Grande</h3>
+                <h5> Singer and Song Writer</h5>
+            </div>
+            
+            </div>
+            <div class="singer-col">
+                <a href="taylor info.html"><IMG SRC="images/taylor.jpg"> </a> 
+            <div class="layer">
+                <h3> Taylor Swift</h3>
+                <h5> Singer & Song writer</h5>
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="sabrina info.html"><IMG SRC="images/sab.jpg"></a>
+            <div class="layer">
+                <h3>Sabrina Carpenter </h3>
+                <h5>  Singer & Song writer</h5>
+                 
+            </div>
+            </div>
+            <div class="singer-col">
+               <a href="olivia info.html"><IMG SRC="images/olivia.jpg"></a>
+            <div class="layer">
+                <h3> OLivia Rodrigo</h3>
+                <h5>  Singer & Song writer </h5>
+                
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="shawn info.html"><IMG SRC="images/shawn.jpg"></a>
+            <div class="layer">
+                <h3> Shawn Mendez </h3>
+                <h5> Singer & Song writer</h5>
+                
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="charlie info.html"><IMG SRC="images/charlie.jpg"></a>
+            <div class="layer">
+                <h3> Charlie Puth</h3>
+                <h5> Singer and Song writer </h5>
+            </div>
+            </div>
+        </div>
+     </section>
+     <section class="footer">
+        <h4> About Us</h4>
+        <p> ENENENNENENEN</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+       </section>  
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       </script>
+</body>
+</html>

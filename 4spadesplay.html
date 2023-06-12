@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IVOS PLAYLIST</title>
+	<link rel="stylesheet" href="moiraplay.css">
+    <meta name="theme-color" content="#000000">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="images/bgg.jpg" alt="" id="bg">
+
+		<!-- navbar part -->
+		<div class="navbar">
+			<a href="4spades.html" id="logo"><i class="bi bi-back"></i>&nbsp;Back</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content">
+				<li><a href="moira info.html">Home</a></li>
+				
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="#"><i class='bx bx-category'></i></a></li>
+				<li><a href="#"><i class='bx bx-tv'></i></a></li>
+				<li><a href="#"><i class='bx bxs-movie-play'></i></a></li>
+				<li><a href="#"><i class='bx bxs-message-square-detail'></i></a></li>
+				<li><a href="#"><i class='bx bx-merge'></i></a></li>
+				<li><a href="#"><i class='bx bxs-cart-add'></i></a></li>
+			</div>
+		</div>
+        
+       <!--  mid part -->
+		<div class="mid_part">
+            <img src="images/4spades.jpg" alt="">
+
+			<div class="description">
+				<p id="A_name">IV of Spades</p>
+				<br>
+
+
+                 <div class="buttons">
+                   <button><i class='bx bx-play'></i></button>
+				   <button><i class='bx bxs-like' ></i></button>
+				   <button><i class='bx bx-share-alt'></i></button>
+				   <button><i class='bx bx-bookmark-alt'></i></button>
+                 </div>
+
+			</div>
+		</div>
+
+        <!-- tracks part -->
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Top Tracks</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<img src="song_img/4s1.(mundo).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="songs/4spades1(mundo).mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Mundo</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bx-share' ></i></a></p>
+				  <p><a href="4spades1(mundo).mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!-----BB 2nd song--------->
+			<div id="track">
+				<img src="song_img/4s2(ilaw).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/4spades2(ilaw).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p>Ilaw sa Daan</p>
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				   <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="4spades2(ilaw).mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!------- 3rd song-->
+			<div id="track">
+				<img src="song_img/4s3(bata).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/4spades3(bata).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Bata Dahan Lang</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				     <p id="message">New</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="4spades3(bata).mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+      <!---------- 4th song-->
+			<div id="track">
+				<img src="song_img/4s4(come).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/4spades4(come).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Come Inside of My Heart</p>
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="4spades4(come).mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+		  <!----------BB 5th song-->
+			<div id="track">
+				<img src="song_img/4s5(hey).jpg" alt="">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="songs/4spades5(hey).mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Hey Barbara</p>
+				     
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="4spades5(hey).mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+		</div>
+
+      
+
+		<!-- popular creator part -->
+		<div class="popular_creator">
+			<p id="heading"><i class='bx bx-trophy' ></i>&nbsp;&nbsp;Popular Creator</p>
+			 <div class="artists_list">
+ 
+				 <div class="artist">
+					 <a href="zackplay.html"><img src="images/zack.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Zack Tabudlo</p>
+						 
+					 </div>
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="silentplay.html"><img src="images/silent.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Silent Sanctuary</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="BenBenplay.html"><img src="images/ben and ben.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Ben and Ben</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="eraserplay.html"><img src="images/eraserhead.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Eraserhead</p>
+						 
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <a href="moiraplay.html"><img src="images/Moira editss.jpg" alt=""></a>
+					 <div class="artist_desc">
+						 <p>Moira Dela Torre</p>
+						 
+					 </div>
+				 </div>
+ 
+			 </div>
+		 </div>
+ 
+		 <!-- footer part -->
+		
+ 
+	 </div>
+
+  <!-- javascript file -->
+  <script src="moiraplay.js"></script>
+</body>
+</html>
+
+<!-- by Dev Ideas -->

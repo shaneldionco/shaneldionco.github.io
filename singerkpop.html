@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Music Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""> </a>
+       
+        <div class="nav-links"id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+         <ul>
+            <li> <a href="index.html">HOME </a></li>
+            <li> <a href="about.html">ABOUT </a></li>
+            <li> <a href="singeropm.html">OPM </a></li>
+            <li> <a href="singerwestern.html">WESTERN</a></li>
+            <li><a href="singerkpop.html">KPOP</a></li>
+            </ul>
+            
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+
+     </nav>  
+     
+     <h1> KPOP ARTISTS </h1>
+    </section>
+    <section class="Singers">
+       
+        <div class="row">
+            <div class="singer-col">
+            <a href="bpinfo.html"><IMG SRC="images/bp2.jpg"></a>
+            <div class="layer">
+                <h3>BLACKPINK</h3>
+                <h5> Girl Group</h5>
+            </div>
+            
+            </div>
+            <div class="singer-col">
+                <a href="btsinfo.html"><IMG SRC="images/Bts.jpg"> </a> 
+            <div class="layer">
+                <h3> BTS</h3>
+                <h5>Boy Group </h5>
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="redvinfo.html"><IMG SRC="images/redvelvet.jpg"></a>
+            <div class="layer">
+                <h3>Red Velvet </h3>
+                <h5>Girl Group</h5>
+                
+            </div>
+            </div>
+            <div class="singer-col">
+               <a href="exoinfo.html"><IMG SRC="images/exo.jpg"></a>
+            <div class="layer">
+                <h3> EXO</h3>
+                <h5> Boy Group </h5>
+               
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="twiceinfo.html"><IMG SRC="images/twice.jpg"></a>
+            <div class="layer">
+                <h3> TWICE </h3>
+                <h5> Girl Group </h5>
+               
+            </div>
+            </div>
+            <div class="singer-col">
+                <a href="17info.html"><IMG SRC="images/17.jpg"></a>
+            <div class="layer">
+                <h3> SEVENTEEN</h3>
+                <h5> Boy Group </h5>
+            </div>
+            </div>
+        </div>
+     </section>
+    
+    </section>    
+       <section class="footer">
+        <h4> About Us</h4>
+        <p> ENENENNENENEN</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+       </section>  
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Music Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src=""> </a>
+       
+        <div class="nav-links"id="navLinks">
+          <i class="fa fa-times"onclick="hideMenu()"></i>
+         <ul>
+            <li> <a href="index.html">HOME </a></li>
+            <li> <a href="about.html">ABOUT </a></li>
+            <li> <a href="singeropm.html">OPM </a></li>
+            <li> <a href="singerwestern.html">WESTERN</a></li>
+            <li><a href="singerkpop.html">KPOP</a></li>
+            </ul>
+            
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+
+     </nav>  
+     
+     <h1> OPM ARTISTS </h1>
+    </section>
+    <!------about us content----->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+            <h2>Four of Spades </h2>
+            <p>The Filipino rock band IV of Spades formed in 2014 in Metro Manila, Philippines. <br>
+                Inspired by 1970s music and fashion, bandmates <b>Zild Benitez</b>, <b>Blaster Silonga</b>,  and <b>Badjao de Castro</b> developed a blend of funk, pop, and rock that earned IV of Spades a record deal with Warner Music Philippines. 
+                The <b></b>debut single</b> for the label was 2016's <b>"Ilaw sa Daan</b>," followed by the hit song <b>"Hey Barbara" in July 17</b>.<br>
+            <b>"Hey Barbara"</b>was a hit, earning awards for <b>"Best Performance by a Group Recording Artist," "Favorite Performance by a Group Recording Artist</b>," and <b>"Record of the Year</b>" and the 2018 Awit Awards. IV of Spade's third single, 
+            <b>"Where Have You Been, My Disco," won "Music Video of the Year"</b> at the same show. Beginning in 2018, the band began releasing music from its debut album, with songs like 
+            <b>"Bawat Kaluluwa"</b> becoming radio hits in the band's homeland. <b>ClapClapClap!</b>, IV of Spades' full-length debut album, arrived in January 2019 and was named <b>"Album of the Year"</b> at the <b>Awit Awards </b>one year later.
+            After releasing the singles <b>"Ang Pinagmulan" and "Sariling Multo (Sa Panaginip)</b>" in 2020, IV of Spades announced their hiatus later that year. 
+            Two years later, they reunited and released the single <b>"Come Inside of My Heart."</b> 
+         </p>
+           
+                <a href="4spadesplay.html" class="hero-btn red-btn">PLAYLIST </a>
+            </div> 
+            <div class="about-col">
+            <img src="images/spades inf.jpg">
+        </div>
+        </div>
+        <h2>Top Hits Song </h2>
+        <table class="table table-borderless table-dark">
+            <thead>
+              <tr>
+                <th scope="col"># </th>
+                <th scope="col">Song Name</th>
+                <th scope="col">Released Date </th>
+                <th scope="col">Album</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+              <td>Come Inside Of My Heart </td>
+                <td>October 13, 2019</td>
+                <td>ClapClapClap!</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><a href=""></a>Mundo</td>
+                <td>February 14, 2018</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Dulo Ng Hangganan</td>
+                <td>January 18, 2019</td>
+                <td>ClapClapClap!</td>
+              </tr>
+              
+            </tbody>
+          </table>
+    </section>
+
+    </section> 
+       <section class="footer">
+        <h4> About Us</h4>
+        <p> ENENENNENENEN</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+       </section> 
+       <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       </script> 
+</body>
+</html>
